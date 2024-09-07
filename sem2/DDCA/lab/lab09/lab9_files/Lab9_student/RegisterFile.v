@@ -31,7 +31,7 @@ module RegisterFile(
    
 	
     wire [31:0] Read1;  // output of PortA
-	 wire [31:0] Read2;  // output of PortB
+	wire [31:0] Read2;  // output of PortB
   // once everything works do not forget to add a reset here 
   // you should not enable WE while there is a reset
  
@@ -56,7 +56,7 @@ module RegisterFile(
 	  // Then the output will be zero
 	  // Otherwise read the output from the register file 
 
-     assign RD1 = (A1 != 4'b0000) ? Read1 : 0; // Port 1
-	  assign RD2 = (A2 != 4'b0000) ? Read2 : 0; // Port 2
+	assign RD1 = (A1 != 4'b0000) ? Read1 : 0; // Port 1
+	assign RD2 = (A2 != 4'b0000) ? Read2 : 0; // Port 2
 
 endmodule
