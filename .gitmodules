@@ -8,3 +8,6 @@
 [submodule "www/homepage"]
 	path = www/homepage
 	url = git@github.com:bfeitknecht/homepage.git
+[submodule "sem3/EProg/bfeitknecht"]
+	path = sem3/EProg/bfeitknecht
+	url = git@gitlab.inf.ethz.ch:course-eprog2024/students/bfeitknecht.git
